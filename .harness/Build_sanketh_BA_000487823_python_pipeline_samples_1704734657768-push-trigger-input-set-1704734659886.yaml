@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sanketh_BA_000487823_python_pipeline_samples_1704734657768-push-trigger-input-set
+  identifier: Build_sanketh_BA_000487823_python_pipeline_samples_1704734657768pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythondemo
+  pipeline:
+    identifier: Build_sanketh_BA_000487823_python_pipeline_samples_1704734657768
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sanketh_BA_000487823_python_pipeline_samples_1704734657768-pr-trigger-input-set
+  identifier: Build_sanketh_BA_000487823_python_pipeline_samples_1704734657768prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythondemo
+  pipeline:
+    identifier: Build_sanketh_BA_000487823_python_pipeline_samples_1704734657768
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
